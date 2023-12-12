@@ -5,7 +5,7 @@ import { ResizableElement } from '../../services/resizable.directive';
 import ColumnService from '../data/columnService';
 
 type Props = {
-  data?: RevoGrid.ColumnRegular;
+  data?: RevoGrid.ColumnRegular | RevoGrid.ColumnGrouping;
   props: RevoGrid.CellProps;
 };
 
