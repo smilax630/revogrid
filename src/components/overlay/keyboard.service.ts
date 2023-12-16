@@ -76,7 +76,7 @@ export class KeyboardService {
 
     // pressed letter key
     if (isLetterKey(e.keyCode)) {
-      this.sv.doEdit(e.key);
+      this.sv.doEdit("");
       return;
     }
 

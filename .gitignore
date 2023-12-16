@@ -1,7 +1,7 @@
-# dist/
-# custom-element/
+dist/
+custom-element/
 www/
-# loader/
+loader/
 demo/
 demo/node_modules
 fw/
